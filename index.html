@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TD LOGIN</title>
+  <!-- <link rel="stylesheet" href="./style.css"> -->
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: rgb(2, 67, 2);
+    }
+
+    .box {
+      background: rgba(255, 255, 255, 0.479);
+      padding: 30px;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background: rgb(110, 179, 6) ;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #result {
+      margin-top: 10px;
+      font-weight: bold;
+      color: red;
+    }
+
+    @media only screen and (max-width: 768px) {
+      body{
+        background-image: url(./bank-ceo-page.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h3>Login</h3>
+
+    <input type="text" id="user" placeholder="Username" />
+    <input type="password" id="pass" placeholder="Password" />
+
+    <button onclick="login()">Login</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="./web.js"></script>
+
+</body>
+</html>
