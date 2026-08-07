@@ -44,10 +44,7 @@
     max-width: 50px;
     overflow: hidden;
   }
-  .headerh1{
-    color: white;
-    margin: 20px;
-  }
+
   .headerh3{
     color: white;
     margin-left: 5px;
@@ -75,30 +72,12 @@
     margin-top: 15px;
     margin-bottom: 8px;
   }
-  .cardh5{
-    color: black;
-    font-weight: 100;
-    font-style: italic;
-    margin-top: -10px;
-    font-size: 12px;
-  }
+
   .card h5{
     font-size: 10px;
     margin-bottom: 20px;
   }
-  .content{
-    display: flex;
-    margin: auto;
-    gap: 50px;
-    width: fit-content;
-  }
-  .content img{
-    width: 50px;
-  }
-  .content p{
-    font-size:10px;
-    font-weight: 900;
-  }
+
   .summary-sec{
     height: 100vh;
     border-radius: 20px;
@@ -208,4 +187,181 @@
   justify-content: space-between;
   align-items: center;
   margin-right: 20px;
+}
+
+.tran-con{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+/* css for transfer failed */
+.transferBtn{
+  background-color: white ;
+  width: 40%;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+
+.transferBtn h5{
+  font-weight: lighter;
+
+  margin-top: -10px;
+  font-size: larger;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+#transferBtn{
+  /* margin: 10px; */
+  margin-top: -30px;
+  border: none;
+  width:100%;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  background-color:rgb(67, 20, 2) ;
+}
+
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.popup-box {
+    width: 320px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    animation: popupFade .25s ease;
+}
+
+.popup-box h2 {
+    margin-bottom: 10px;
+    color: #d32f2f;
+}
+
+.popup-box p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#popupOkBtn {
+    padding: 10px 24px;
+    border: none;
+    background: #008a2e;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#popupOkBtn:hover {
+    background: #006d24;
+}
+
+@keyframes popupFade {
+    from {
+        transform: scale(.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+
+/* deposit css */
+
+.deposit-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.deposit-box {
+    width: 320px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    animation: depositFade .25s ease;
+}
+
+.deposit-box h2 {
+    margin-bottom: 10px;
+    color: #d32f2f;
+}
+
+.deposit-box p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.deposit-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#depositOkBtn {
+    padding: 10px 24px;
+    border: none;
+    background: #008a2e;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#depositOkBtn:hover {
+    background: #006d24;
+}
+
+@keyframes depositFade {
+    from {
+        transform: scale(.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+#depositBtn{
+  /* margin: 10px; */
+  margin-top: -30px;
+  border: none;
+  width:100%;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  background-color:rgb(67, 20, 2) ;
 }
