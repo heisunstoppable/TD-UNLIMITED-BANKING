@@ -21,9 +21,10 @@
             
             <h1>TD</h1>
         </div>
-        <h1 class="headerh1">Accounts</h1>
+
+        
         <div class="card">
-            <marquee class="cardh5">Hello Margret, your account is currently under restriction...</marquee>
+            
             <div class="bal">
                 <h1>Balance</h1>
                 <h1>$1,940,920.89</h1>
@@ -31,21 +32,23 @@
             <div>
                 <h5>TD UNLIMITED CHECKING ACCOUNT</h5>
             </div>
-            <div class="content">
-                <div class="content-1" id="click">
-                    <img src="./currency.png" alt="">
-                    <p>TRANSFER</p>
-                    <p></p>
+
+            <div class="tran-con">
+
+                <div class="transferBtn">
+                    <h5>Transfer</h5>
+                    <button id="transferBtn">Transfer</button>
                 </div>
-                <div class="content-1">
-                    <img src="./wallet.png" alt="">
-                    <p>PAY BILLS</p>
+    
+                <div class="transferBtn">
+                    <h5>Deposit</h5>
+                    <button id="depositBtn">Deposit</button>
                 </div>
-                <div class="content-1">
-                    <img src="./payments (2).png" alt="">
-                    <p>DEPOSIT</p>
-                </div>
+                
             </div>
+
+
+            
         </div>
 
         <div class="summary-sec">
@@ -203,6 +206,36 @@
 
 
 
+
+
+
+
+
+<div class="popup-overlay" id="transferPopup">
+    <div class="popup-box">
+        <span class="popup-close">&times;</span>
+
+        <h2>Transaction Failed</h2>
+        <p>Unable to carry out this transaction.</p>
+
+        <button id="popupOkBtn">OK</button>
+    </div>
+</div>
+
+
+
+
+
+<div class="deposit-overlay" id="depositPopup">
+    <div class="deposit-box">
+        <span class="deposit-close">&times;</span>
+
+        <h2>Deposit Failed</h2>
+        <p>Unable to carry out this transaction.</p>
+
+        <button id="depositOkBtn">OK</button>
+    </div>
+</div>
 
 
 
