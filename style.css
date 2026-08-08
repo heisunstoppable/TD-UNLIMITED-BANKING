@@ -15,7 +15,8 @@
 /* for my media query */
 @media only screen and (max-width: 768px) {
   .main-wrapper{
-    background-color: rgb(67, 20, 2);
+    /* background-color: rgb(67, 20, 2); */
+    background-color: rgb(2, 67, 2);
     color: white;
   }
   .header{
@@ -27,7 +28,8 @@
   .comm{
     display: flex;
     align-items: center;
-    background-color: rgba(110, 179, 6, 0.486);
+    /* background-color: rgba(110, 179, 6, 0.486); */
+    background-color: rgb(110, 179, 6);
     padding: 5px;
     border-radius: 50px;
   }
@@ -45,6 +47,11 @@
     overflow: hidden;
   }
 
+  .td-img{
+    width: 30px;
+    max-width: 50px;
+  }
+
   .headerh3{
     color: white;
     margin-left: 5px;
@@ -57,7 +64,7 @@
     margin: 20px;
     border-radius: 20px;
     height: fit-content;
-    background-color: rgba(110, 179, 6, 0.486);
+    background-color: rgb(110, 179, 6);
     text-align: center;
     padding: 20px;
   }
@@ -189,7 +196,8 @@
   border-radius: 10px;
   color: white;
   padding: 10px;
-  background-color:rgb(67, 20, 2) ;
+  /* background-color:rgb(67, 20, 2) ; */
+  background-color: rgb(2, 67, 2);
 }
 
 .tran{
@@ -232,7 +240,7 @@
   border-radius: 5px;
   color: white;
   padding: 5px;
-  background-color:rgb(67, 20, 2) ;
+  background-color: rgb(2, 67, 2);
 }
 
 
@@ -372,5 +380,6 @@
   border-radius: 5px;
   color: white;
   padding: 5px;
-  background-color:rgb(67, 20, 2) ;
+  background-color: rgb(2, 67, 2);
+  /* background-color:rgb(67, 20, 2) ; */
 }
