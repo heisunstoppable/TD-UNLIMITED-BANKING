@@ -1,6 +1,6 @@
 // // Change these to your own username and password
-const correctUser = "Margret@td";
-const correctPass = "Ivy90@!";
+const correctUser = "Akmoney-TD";
+const correctPass = "Ak284@";
 
 function login() {
     const username = document.getElementById('user').value;
